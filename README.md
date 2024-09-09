@@ -2,17 +2,6 @@
 
 This repository contains the code and dataset used in the study titled "Pre-Trained Models May Hurt Immunogenicity Prediction Performance" by Jiahao Ma, Hongzong Li, Jian-Dong Huang, Ye-Fan Hu, and Yifan Chen. The study investigates the impact of using pre-trained models in the task of Peptide-MHC-TCR interaction prediction, and demonstrates that pre-trained TCR embeddings may lead to suboptimal performance in certain scenarios.
 
-## Table of Contents
-
-- [Abstract](#abstract)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Results](#results)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
-
 ## Abstract
 
 In this work, we explore whether pre-trained models can hurt the predictive performance of immunogenicity tasks, specifically Peptide-MHC-TCR interaction predictions. We evaluate a modified pMTnet model (`pMTnet-NoPreCA`), which does not use pre-trained TCR embeddings, and compare its performance against the original pMTnet. Our results reveal that the `pMTnet-NoPreCA` model outperforms the original when pre-trained embeddings are excluded, suggesting that pre-trained models may not always be effective for this specific task.
