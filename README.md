@@ -28,6 +28,8 @@ Our experiments show that the pMTnet-NoPreCA model significantly outperforms the
     PR AUC (pMTnet): 0.71
     PR AUC (pMTnet-NoPreCA): 0.89
 
-The dataset used for this study is available in the original paperhttps://github.com/tianshilu/pMTnet}.
-![ROC and PR curves][]## Authors- Jiahao Ma Hongzong Li Jian-Dong Huang Ye-Fan Hu Yifan Chen 
-## AcknowledgmentsThis research was supported by the National Key Research and Development Program of China (2021YFA0910700), the Health and Medical Research Fund, and other funding bodies. For a full list of acknowledgments, please refer to the paper.## LicenseThis project is licensed under the MIT License - see the LICENSE file for details.```### Notes:- Make sure you have a requirements.txt file listing all the dependencies (e.g., PyTorch, NumPy, etc.).- Ensure that the paths in the README.md match the actual structure of your repository.- You can include any additional information, such as specific hardware requirements or further instructions for running experiments, as needed.
+The dataset used for this study is available in the original paper{https://github.com/tianshilu/pMTnet}.
+
+Acknowledgments: This research was supported by the National Key Research and Development Program of China (2021YFA0910700), the Health and Medical Research Fund, and other funding bodies. For a full list of acknowledgments, please refer to the paper.## LicenseThis project is licensed under the MIT License - see the LICENSE file for details.
+
+```### Notes:- Make sure you have a requirements.txt file listing all the dependencies (e.g., PyTorch, NumPy, etc.).- Ensure that the paths in the README.md match the actual structure of your repository.- You can include any additional information, such as specific hardware requirements or further instructions for running experiments, as needed.
