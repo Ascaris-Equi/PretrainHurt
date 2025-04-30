@@ -19,7 +19,7 @@ Then, run with the following codes:
 jupyter nbconvert --to notebook --execute pmtnet-torch.ipynb
 jupyter nbconvert --to notebook --execute nopreca-torch.ipynb
 ```
-Results
+## Results
 
 Our experiments show that the pMTnet-NoPreCA model significantly outperforms the original pMTnet model in both ROC and Precision-Recall metrics:
 
@@ -30,8 +30,15 @@ Our experiments show that the pMTnet-NoPreCA model significantly outperforms the
 
 The dataset used for this study is available in the original paper{https://github.com/tianshilu/pMTnet}.
 
-Acknowledgments: This research was supported by the National Key Research and Development Program of China (2021YFA0910700), the Health and Medical Research Fund, and other funding bodies. For a full list of acknowledgments, please refer to the paper.
+## Acknowledgments
 
-License: This project is licensed under the MIT License.
+This research was supported by the National Key Research and Development Program of China (2021YFA0910700), the Health and Medical Research Fund, and other funding bodies. For a full list of acknowledgments, please refer to the paper.
 
-Notes:- Make sure you have a requirements.txt file listing all the dependencies (e.g., PyTorch, NumPy, etc.).- Ensure that the paths in the README.md match the actual structure of your repository.- You can include any additional information, such as specific hardware requirements or further instructions for running experiments, as needed.
+## License
+
+This project is licensed under the MIT License.
+
+## Notes
+- Make sure you have a requirements.txt file listing all the dependencies (e.g., PyTorch, NumPy, etc.).
+- Ensure that the paths in the README.md match the actual structure of your repository.
+- You can include any additional information, such as specific hardware requirements or further instructions for running experiments, as needed.
