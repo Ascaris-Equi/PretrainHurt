@@ -23,13 +23,13 @@ jupyter nbconvert --to notebook --execute nopreca-torch.ipynb
 
 Our experiments show that the pMTnet-NoPreCA model significantly outperforms the original pMTnet model in both ROC and Precision-Recall metrics:
 
-    ROC AUC (pMTnet): 0.73
-    ROC AUC (pMTnet-NoPreCA): 0.92
-    PR AUC (pMTnet): 0.71
-    PR AUC (pMTnet-NoPreCA): 0.89
+|  Metric           |pMTnet (pMTnet Dataset)| pMTnet-NoPreCA (pMTnet Dataset)|pMTnet (OOD Dataset)| pMTnet-NoPreCA (OOD Dataset)|
+|-------------------|-------------:|-------------:|-------------:|-------------:|
+| ROC AUC           |       0.7327 |       0.9168 |       0.4722 |       0.7126 |
+| PR AUC            |       0.7065 |       0.8912 |       0.4832 |       0.7031 |
 
-The dataset used for this study is available in the original paper{https://github.com/tianshilu/pMTnet}.
-
+One dataset used for this study is available in the original paper{https://github.com/tianshilu/pMTnet}, designed as **pMTnet Dataset**.  
+Another dataset used here is obtained from VDJdb{https://vdjdb.cdr3.net/}, designed as **OOD Dataset**. 
 ## Acknowledgments
 
 This research was supported by the National Key Research and Development Program of China (2021YFA0910700), the Health and Medical Research Fund, and other funding bodies. For a full list of acknowledgments, please refer to the paper.
